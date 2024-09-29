@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#lista-estudiantes {
+    margin-top: 20px;
+}
+
+.estudiante {
+    background-color: #e7f3e7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c8e6c8;
+}
+
+#datos-profesor {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-left: 4px solid #4CAF50;
+    font-weight: bold;
+}
+#datos-profesor-texto {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+#datos-profesor p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+.estudiante-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.estudiante-item span {
+    flex-grow: 1;
+}
+.btn-editar, .btn-eliminar {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-eliminar {
+    background-color: #dc3545;
+}
+.btn-editar:hover {
+    background-color: #0056b3;
+}
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+.divBusqueda{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.tituloBusq{
+display: flex;
+flex-direction: column;
+}
+.rdBtn{
+display: flex;
+width: 400px;
+}
+#cursos-previamente-cargados {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.curso-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.curso-item p {
+    font-weight: bold;
+}
+
+.curso-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.curso-item li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.curso-item li:last-child {
+    border-bottom: none;
+}

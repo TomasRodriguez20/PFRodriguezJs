@@ -1,0 +1,22 @@
+[
+    {
+        "profesor": "González",
+        "curso": "Matemáticas",
+        "comision": "12345",
+        "estudiantes": [
+            { "nombre": "Juan", "apellido": "Pérez" },
+            { "nombre": "Ana", "apellido": "Gómez" },
+            { "nombre": "Luis", "apellido": "Martínez" }
+        ]
+    },
+    {
+        "profesor": "Rodriguez",
+        "curso": "Historia",
+        "comision": "54321",
+        "estudiantes": [
+            { "nombre": "María", "apellido": "López" },
+            { "nombre": "Carlos", "apellido": "Sánchez" },
+            { "nombre": "Laura", "apellido": "Hernández" }
+        ]
+    }
+]
